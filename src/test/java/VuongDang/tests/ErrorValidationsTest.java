@@ -13,7 +13,7 @@ import org.testng.Assert;
 
 import VuongDang.pageObjects.CartPage;
 
-public class ErrorValidationsTest extends BaseTest {
+public class  ErrorValidationsTest extends BaseTest {
 
 	@Test(groups= {"ErrorHandling"},retryAnalyzer= Retry.class)
 	public void LoginErrorValidation() throws IOException, InterruptedException {

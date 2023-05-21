@@ -1,0 +1,9 @@
+VuongDang\Resources\ExtentReporterNG.class
+VuongDang\pageObjects\CartPage.class
+VuongDang\StadaloneTest.class
+VuongDang\pageObjects\ProductCatalogue.class
+VuongDang\pageObjects\LandingPage.class
+VuongDang\pageObjects\ConfirmationPage.class
+VuongDang\pageObjects\CheckoutPage.class
+VuongDang\AbstracComponents\AbstracComponent.class
+VuongDang\pageObjects\OrderPage.class
