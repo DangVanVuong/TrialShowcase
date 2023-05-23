@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-21T15:54:15 ICT" name="Surefire suite" finished-at="2023-05-21T15:54:49 ICT" duration-ms="34067">
+  <suite started-at="2023-05-22T21:11:32 ICT" name="Surefire suite" finished-at="2023-05-22T21:12:15 ICT" duration-ms="43071">
     <groups>
       <group name="ErrorHandling">
-        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:VuongDang.tests.ErrorValidationsTest@30b7c004]" name="LoginErrorValidation" class="VuongDang.tests.ErrorValidationsTest"/>
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:VuongDang.tests.ErrorValidationsTest@79efed2d]" name="LoginErrorValidation" class="VuongDang.tests.ErrorValidationsTest"/>
       </group> <!-- ErrorHandling -->
       <group name="Purchase">
-        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:VuongDang.tests.SubmitOrderTest@27ae2fd0]" name="submitOrder" class="VuongDang.tests.SubmitOrderTest"/>
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:VuongDang.tests.SubmitOrderTest@29176cc1]" name="submitOrder" class="VuongDang.tests.SubmitOrderTest"/>
       </group> <!-- Purchase -->
     </groups>
-    <test started-at="2023-05-21T15:54:15 ICT" name="Surefire test" finished-at="2023-05-21T15:54:49 ICT" duration-ms="34067">
+    <test started-at="2023-05-22T21:11:32 ICT" name="Surefire test" finished-at="2023-05-22T21:12:15 ICT" duration-ms="43071">
       <class name="VuongDang.tests.SubmitOrderTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:VuongDang.tests.SubmitOrderTest@27ae2fd0]" started-at="2023-05-21T15:54:29 ICT" name="launchApplication" finished-at="2023-05-21T15:54:33 ICT" duration-ms="4439" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:VuongDang.tests.SubmitOrderTest@29176cc1]" started-at="2023-05-22T21:11:54 ICT" name="launchApplication" finished-at="2023-05-22T21:11:59 ICT" duration-ms="4422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:VuongDang.tests.SubmitOrderTest@27ae2fd0]" started-at="2023-05-21T15:54:33 ICT" name="submitOrder" data-provider="getData" finished-at="2023-05-21T15:54:37 ICT" duration-ms="3299" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:VuongDang.tests.SubmitOrderTest@29176cc1]" started-at="2023-05-22T21:11:59 ICT" name="submitOrder" data-provider="getData" finished-at="2023-05-22T21:12:02 ICT" duration-ms="3307" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,15 +28,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:VuongDang.tests.SubmitOrderTest@27ae2fd0]" started-at="2023-05-21T15:54:37 ICT" name="tearDown" finished-at="2023-05-21T15:54:37 ICT" duration-ms="168" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VuongDang.tests.SubmitOrderTest@29176cc1]" started-at="2023-05-22T21:12:02 ICT" name="tearDown" finished-at="2023-05-22T21:12:02 ICT" duration-ms="149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:VuongDang.tests.SubmitOrderTest@27ae2fd0]" started-at="2023-05-21T15:54:37 ICT" name="launchApplication" finished-at="2023-05-21T15:54:41 ICT" duration-ms="4146" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:VuongDang.tests.SubmitOrderTest@29176cc1]" started-at="2023-05-22T21:12:02 ICT" name="launchApplication" finished-at="2023-05-22T21:12:06 ICT" duration-ms="4149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:VuongDang.tests.SubmitOrderTest@27ae2fd0]" started-at="2023-05-21T15:54:41 ICT" name="submitOrder" data-provider="getData" finished-at="2023-05-21T15:54:44 ICT" duration-ms="3200" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:VuongDang.tests.SubmitOrderTest@29176cc1]" started-at="2023-05-22T21:12:06 ICT" name="submitOrder" data-provider="getData" finished-at="2023-05-22T21:12:10 ICT" duration-ms="3461" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,45 +47,45 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:VuongDang.tests.SubmitOrderTest@27ae2fd0]" started-at="2023-05-21T15:54:44 ICT" name="tearDown" finished-at="2023-05-21T15:54:44 ICT" duration-ms="131" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VuongDang.tests.SubmitOrderTest@29176cc1]" started-at="2023-05-22T21:12:10 ICT" name="tearDown" finished-at="2023-05-22T21:12:10 ICT" duration-ms="164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:VuongDang.tests.SubmitOrderTest@27ae2fd0]" started-at="2023-05-21T15:54:44 ICT" name="launchApplication" finished-at="2023-05-21T15:54:48 ICT" duration-ms="4117" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:VuongDang.tests.SubmitOrderTest@29176cc1]" started-at="2023-05-22T21:12:10 ICT" name="launchApplication" finished-at="2023-05-22T21:12:14 ICT" duration-ms="4014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="OrderHistoryTest()[pri:0, instance:VuongDang.tests.SubmitOrderTest@27ae2fd0]" started-at="2023-05-21T15:54:48 ICT" name="OrderHistoryTest" finished-at="2023-05-21T15:54:49 ICT" depends-on-methods="VuongDang.tests.SubmitOrderTest.submitOrder" duration-ms="824" status="PASS">
+        <test-method signature="OrderHistoryTest()[pri:0, instance:VuongDang.tests.SubmitOrderTest@29176cc1]" started-at="2023-05-22T21:12:14 ICT" name="OrderHistoryTest" finished-at="2023-05-22T21:12:15 ICT" depends-on-methods="VuongDang.tests.SubmitOrderTest.submitOrder" duration-ms="865" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OrderHistoryTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:VuongDang.tests.SubmitOrderTest@27ae2fd0]" started-at="2023-05-21T15:54:49 ICT" name="tearDown" finished-at="2023-05-21T15:54:49 ICT" duration-ms="116" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VuongDang.tests.SubmitOrderTest@29176cc1]" started-at="2023-05-22T21:12:15 ICT" name="tearDown" finished-at="2023-05-22T21:12:15 ICT" duration-ms="225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- VuongDang.tests.SubmitOrderTest -->
       <class name="VuongDang.tests.ErrorValidationsTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:VuongDang.tests.ErrorValidationsTest@30b7c004]" started-at="2023-05-21T15:54:15 ICT" name="launchApplication" finished-at="2023-05-21T15:54:22 ICT" duration-ms="6437" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:VuongDang.tests.ErrorValidationsTest@79efed2d]" started-at="2023-05-22T21:11:32 ICT" name="launchApplication" finished-at="2023-05-22T21:11:40 ICT" duration-ms="8122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="LoginErrorValidation()[pri:0, instance:VuongDang.tests.ErrorValidationsTest@30b7c004]" started-at="2023-05-21T15:54:22 ICT" name="LoginErrorValidation" finished-at="2023-05-21T15:54:22 ICT" duration-ms="620" status="PASS">
+        <test-method signature="LoginErrorValidation()[pri:0, instance:VuongDang.tests.ErrorValidationsTest@79efed2d]" started-at="2023-05-22T21:11:40 ICT" name="LoginErrorValidation" finished-at="2023-05-22T21:11:41 ICT" duration-ms="570" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:VuongDang.tests.ErrorValidationsTest@30b7c004]" started-at="2023-05-21T15:54:22 ICT" name="tearDown" finished-at="2023-05-21T15:54:23 ICT" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VuongDang.tests.ErrorValidationsTest@79efed2d]" started-at="2023-05-22T21:11:41 ICT" name="tearDown" finished-at="2023-05-22T21:11:41 ICT" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:VuongDang.tests.ErrorValidationsTest@30b7c004]" started-at="2023-05-21T15:54:23 ICT" name="launchApplication" finished-at="2023-05-21T15:54:26 ICT" duration-ms="3677" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:VuongDang.tests.ErrorValidationsTest@79efed2d]" started-at="2023-05-22T21:11:41 ICT" name="launchApplication" finished-at="2023-05-22T21:11:51 ICT" duration-ms="10312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="ProductErrorValidation()[pri:0, instance:VuongDang.tests.ErrorValidationsTest@30b7c004]" started-at="2023-05-21T15:54:26 ICT" name="ProductErrorValidation" finished-at="2023-05-21T15:54:29 ICT" duration-ms="2410" status="PASS">
+        <test-method signature="ProductErrorValidation()[pri:0, instance:VuongDang.tests.ErrorValidationsTest@79efed2d]" started-at="2023-05-22T21:11:51 ICT" name="ProductErrorValidation" finished-at="2023-05-22T21:11:54 ICT" duration-ms="2622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:VuongDang.tests.ErrorValidationsTest@30b7c004]" started-at="2023-05-21T15:54:29 ICT" name="tearDown" finished-at="2023-05-21T15:54:29 ICT" duration-ms="128" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VuongDang.tests.ErrorValidationsTest@79efed2d]" started-at="2023-05-22T21:11:54 ICT" name="tearDown" finished-at="2023-05-22T21:11:54 ICT" duration-ms="214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
